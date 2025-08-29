@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import "tailwindcss";
+@theme {
+  --font-roboto: "Roboto", sans-serif;
+}
+
+@theme {
+  --color-primary: #1d2130;
+  --color-secondary: #1d2130;
+  --color-b2: #6b7cff;
+
+  /* light_violet */
+  --color-lv1: #e0e4fc;
+
+  /* gadient */
+  --color-b1: #373fff;
+  --color-lb1: #3acaf8;
+
+  /* radial gredient */
+  --color-p1: #d798e1;
+  --color-g1: #9bffa5;
+  --color-b3: #aed3ff;
+  --color-b4: #c9d4ef;
+  --color-b5: #cacffa;
+}
+
+body {
+  font-family: var(--font-roboto);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button:hover {
+  transition: all 0.3s ease-in-out;
+}
+
+.image {
+  width: 576;
+  height: 435;
+  opacity: 1;
+  top: 2510px;
+  left: 744px;
+}
+
+.insight {
+  background-image: radial-gradient(
+    circle at 10% 40%,
+    rgb(201, 225, 255) 0%,
+    #fff 30%,
+    transparent 60%
+  );
+}
+
+.lead {
+  background-image: radial-gradient(
+    circle at 70% 35%,
+    rgb(201, 225, 255) 0%,
+    #fff 30%,
+    transparent 60%
+  );
+}
