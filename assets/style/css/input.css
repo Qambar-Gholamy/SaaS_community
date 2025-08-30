@@ -13,7 +13,7 @@
 
   /* light_violet */
   --color-lv1: #e0e4fc;
-
+  --color-lv2: #d5f5ea;
   /* gadient */
   --color-b1: #373fff;
   --color-lb1: #3acaf8;
@@ -22,6 +22,7 @@
   --color-p1: #d798e1;
   --color-g1: #9bffa5;
   --color-b3: #aed3ff;
+
   --color-b4: #c9d4ef;
   --color-b5: #cacffa;
 }
