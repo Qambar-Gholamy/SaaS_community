@@ -81,3 +81,12 @@ button:hover {
     transparent 50%
   );
 }
+
+.contact-gradient {
+  background-image: radial-gradient(
+    circle at 20% 60%,
+    rgb(201, 225, 255) 0%,
+    #fff 50%,
+    transparent 30%
+  );
+}
