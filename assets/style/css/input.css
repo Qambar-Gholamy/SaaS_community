@@ -63,3 +63,21 @@ button:hover {
     transparent 60%
   );
 }
+
+.header-gradient {
+  background-image: radial-gradient(
+    circle at 30% 40%,
+    rgb(201, 225, 255) 0%,
+    #fff 40%,
+    transparent 30%
+  );
+}
+
+.gradient {
+  background-image: radial-gradient(
+    circle at 75% 45%,
+    rgb(201, 225, 255) 0%,
+    #fff 40%,
+    transparent 50%
+  );
+}
