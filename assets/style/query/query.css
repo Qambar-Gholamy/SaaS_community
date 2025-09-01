@@ -59,6 +59,11 @@
     left: 64rem;
     right: 0rem;/
   }
+
+  .team{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
 
 

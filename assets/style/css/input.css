@@ -90,3 +90,9 @@ button:hover {
     transparent 30%
   );
 }
+
+.team {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  gap: 30px;
+}
