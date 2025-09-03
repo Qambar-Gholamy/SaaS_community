@@ -22,7 +22,6 @@
   --color-p1: #d798e1;
   --color-g1: #9bffa5;
   --color-b3: #aed3ff;
-
   --color-b4: #c9d4ef;
   --color-b5: #cacffa;
 }
@@ -95,4 +94,11 @@ button:hover {
   display: grid;
   grid-template-columns: 2fr 3fr;
   gap: 30px;
+}
+
+.trend img {
+  overflow: hidden;
+  top: 1rem;
+  right: 0;
+  z-index: -10;
 }
