@@ -138,13 +138,35 @@ max-width: 12rem;
 
 
 /* Styles for phomes devices */
-@media (max-width: 29rem) {
+@media (max-width: 28rem) {
 html{
   font-size: 50%;
 }
 
 .navigation{
   background-color: red;
-  max-width: 77rem;
+  margin: 0 auto;
+  padding-left: 6px;
+  padding-right: 6px;
 }
+
+.sticky{
+  width:inherit;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 3px 10px;
+  z-index: 999;
+}
+
+.menu{
+  opacity: 1;
+visibility: hidden;
+}
+
+.menu button{
+  visibility: visible;
+}
+
 }
